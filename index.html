@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mark's Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--HEADER / Logo and Navigation-->
+  <header>
+    <div class="container-fluid navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a id="brand" href="#welcome" class="navbar-brand .sliding-u-r-l">Hi, I'm Mark Myles</a>
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <nav>
+          <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myCollapsible">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container-fluid welcome" id="welcome">
+      <h1 class="text-center">Welcome to my Portfolio!</h1>
+      <div class="arrow-down text-center">
+        <a href="#portfolio"><i class="fa fa-angle-down fa-2x"></i></a>
+      </div>
+    </div>
+  </header>
+
+  
+  <!--ASIDE / About information-->
+
+  <aside class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 description">
+          <h3>My name is Mark Myles and I am currently a Software Development student at Keyin College</h3>
+          <p>I have experience working with Python, Html, JavaScript, CSS, REACT, and also AWS</p>
+          <p>You'll see links to my projects below.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="profile-picture  pull-right">
+            <img src="img/logo.jpg" class="img-responsive img-circle" alt="profile-picture">
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!--MAIN / Projects-->
+
+  <main role="main" id="portfolio">
+    <div class="container">
+      <h2><span>PROJECTS</span></h2>
+      <section>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="https://github.com/Mark0195/microlearning" target="_blank">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h4><strong><u>Municiple Skills Catalyst</u></strong></h4>
+                  <p>An app created jointly with Business students from Northern College</p>
+                </div>
+                <img src="img/student.jpg" alt="skills-catalyst">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="https://github.com/Mark0195/react-karaoke-sprint" target="_blank">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h4><strong><u>Okie Dokie Karaoke</u></strong></h4>
+                  <p>Karaoke app completed for a sprint week challenge</p>
+                </div>
+                <img src="img/karaoke.jpg" alt="karaoke">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="https://github.com/Mark0195/LokiSocialMedia" target="_blank">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h4><strong><u>Loki Social Media</u></strong></h4>
+                  <p>A mock up of a social media website completed for a sprint week challenge</p>
+                </div>
+                <img src="img/social.jpg" alt="loki">
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="https://github.com/Mark0195/Funny-Random-Quotes" target="_blank">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h4><strong><u>Random Quote Generator</u></strong></h4>
+                  <p>Just a simple random funny quote generator</p>
+                </div>
+                <img src="img/laugh.jpg" alt="funny-quote">
+              </div>
+            </a>
+          </div>
+        </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!--FOOTER / Contact information/links-->
+
+  <footer id="contact">
+    <div class="container">
+      <div class="row text-center social">
+        <h4>CONTACT</h4>
+        <ul class="list-unstyled list-inline">
+          <li>
+            <a href="mailto:mark.myles@keyin.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/MMyles08" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/mark.myles.9" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/Mark0195" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.1/holder.min.js'></script>
+  <script src="./main.js"></script>
+
+</body>
+</html>
